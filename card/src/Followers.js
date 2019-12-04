@@ -6,7 +6,7 @@ const Followers = props => {
     return (
         <div>
             {props.followers.map((item, index) => (
-                <Item key={item.index} item={item} />
+                <Item key={index} item={item} />
             ))}
         </div>
     );
